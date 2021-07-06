@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/Main/stories.tsx"  ],
   "exclude": [
     "node_modules"
   ]
