@@ -27,10 +27,8 @@ export const Container = styled.div`
   `}
 `
 
-export const Image = styled.picture`
-  max-width: 100%;
+export const Image = styled.img`
 
-  img {
     display: block;
     max-width: min(60rem, 100%);
     margin: 0 auto;
@@ -38,7 +36,6 @@ export const Image = styled.picture`
     ${media.lessThan('medium')`
       max-width: 100%;
     `}
-  }
 `
 
 export const Text = styled.div`
